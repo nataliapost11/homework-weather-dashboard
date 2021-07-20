@@ -1,0 +1,78 @@
+:root {
+    --primary: #D9E8E8;
+    --secondary: #D9E8E8;
+    --tertiary: #788585;
+    --white: #FFFFFF;
+    --light: #D9E8E8;
+    --dark: #2E3E50;
+    --border-radius: .3rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    color: var(--dark);
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.main-header {
+    background-color: blue;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.panel-left {
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(231, 235, 219);
+    padding: 10px;
+}
+
+.panel-main {
+    width: 75%;
+    padding: 10px;
+}
+
+.panel-summary{
+    border:solid 1px #788585;
+    padding: 15px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.btn-main {
+    background-color: rgb(102, 193, 250);
+    color: #ffffff;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.search-history-item
+{
+    padding:5px;
+    border-radius: 4px;
+    width:100%;
+    margin:5px;
+    border: solid 1px #788585;
+}
