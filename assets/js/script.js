@@ -1,4 +1,4 @@
-var APIKey = "b0cd62d5d1c72e893766baa50b0b9970";
+var APIKey = "b372a22e914d50542c7875db61ca6a6e";
 
 // Remove all child elements
 function removeAllChildElements(parentElem) {
